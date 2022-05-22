@@ -1,0 +1,18 @@
+div#form-con {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.submit-line{
+    padding: 1px;
+    background: #524191;
+    border: solid 2px black;
+}
+
+.form-OP {
+    padding: 9px 12px 9px 12px;
+}
+
+.form-control{
+    appearance: auto !important;
+}

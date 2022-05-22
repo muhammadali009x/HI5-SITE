@@ -1,0 +1,29 @@
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    img.induximage {
+        width: 100% !important;
+    }
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .project-block-two {
+        margin-right: 15px;
+        margin-left: 15px;
+    }    
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .service-details-content .content-three .tab-btns li.active-btn:before {
+      display: none;
+    }    
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .service-details-content .content-two .inner-box .single-column .content-box h3 {
+        font-size: 13px;
+        line-height: 17px;
+    }   
+}

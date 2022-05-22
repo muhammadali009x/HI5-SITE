@@ -1,0 +1,15 @@
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .owl-item {
+        width: 100% !important;
+    }
+}
+
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .team-style-three .team-block-one .inner-box{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}

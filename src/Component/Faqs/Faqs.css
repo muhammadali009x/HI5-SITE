@@ -1,0 +1,49 @@
+.icn-szs{
+    font-size: 19px;
+    padding-right: 12px;
+}
+
+.pluscop{
+    display: flex;
+}
+
+
+.grd-dv{
+    display: grid;
+    align-content: center;
+}
+
+.grd-dv h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.btttn-d{
+    background-color: #f0f8ff00;
+    border: 0;
+}
+
+p{
+    font-size: 17px;
+}
+.contenxt {
+    padding-left: 20px;
+}
+
+.uixxadd li{
+    color: black !important;
+    margin-left: 55px;
+list-style: circle !important;
+}
+
+.coptop{
+    margin-top: 30px;
+}
+
+.contenxt.unactive {
+    display: none;
+}
+
+ul.pluscop.active {
+    color: #534293;
+}

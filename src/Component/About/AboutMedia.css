@@ -1,0 +1,20 @@
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    img.supermany {
+        width: 100%;
+    }
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .history-section .sec-title{
+        margin-top: 160% !important;
+    }
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .history-section .inner-box{
+       padding: 0 !important;
+    }
+}

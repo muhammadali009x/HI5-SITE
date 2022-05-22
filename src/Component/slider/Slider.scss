@@ -1,0 +1,172 @@
+ 
+
+.slide {
+ 
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+}
+
+ .txt-impot{
+ color:  #534293 !important;
+ }
+
+ 
+.spnx{
+  color: red !important;
+}
+.current {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.content {
+ 
+  opacity: 0;
+  
+  color: #fff;
+  padding: 120px 20px 120px 100px !important;
+  
+  animation: slide-up 1s ease 0.5s;
+  // animation-delay: 1s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+
+@keyframes slide-up {
+  0% {
+    visibility: visible;
+    top: 23rem;
+  }
+  100% {
+    visibility: visible;
+    top: 17rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 80%;
+  }
+}
+
+.content > * {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.current .content {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+
+.arrow {
+  border: 2px solid white;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+}
+.arrow:hover {
+  background-color: #fff;
+  color: #777;
+}
+
+.next {
+  top: 35%;
+  right: 1.5rem;
+}
+.prev {
+  top: 35%;
+  left: 1.5rem;
+}
+
+hr {
+  height: 2px;
+  background: white;
+  width: 50%;
+}
+
+// dasdadasdsad
+
+/* The outermost element*/
+.header-wrapper {
+  overflow: hidden;
+  width:100%;
+  height:100%;
+  text-align:center;
+}
+
+.wowo{
+  margin: 0;
+  padding: 0;
+}
+
+.zoominheader {
+  width:100%;
+  height:100%;
+  text-align:center;
+  // background: url("http://www.el.commonsupport.com/newwp/eazyrecruitz/wp-content/uploads/2020/09/solutions-1.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-animation: zoomin 17s ease-in infinite;
+  animation: zoomin 17s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* The innermost element*/
+.zoomoutheader {
+  width:100%;
+  height:100%;
+  text-align:center;
+  background: none;
+  -webkit-animation: zoomout 10s ease-in infinite;
+  animation: zoomout 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+}
+
+
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+}
+@keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+} /*End of Zoom in Keyframes */
+
+/* Zoom out Keyframes */
+@-webkit-keyframes zoomout {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.67);}
+  100% {transform: scale(1);}
+}
+@keyframes zoomout {
+    0% {transform: scale(1);}
+  50% {transform: scale(0.67);}
+  100% {transform: scale(1);}
+}/*End of Zoom out Keyframes */
+
+/*Style for the text*/
+.text{
+  color:red;
+  font-weight:bold; 
+}
